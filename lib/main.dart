@@ -260,3 +260,36 @@ class _AlarmListPageState extends State<AlarmListPage> {
     );
   }
 }
+ //   _buildActionButton(
+                //     'Create Timer',
+                //     Icons.timer,
+                //     () {
+                //       int? minutes = int.tryParse(minuteController.text);
+                //       if (minutes != null) {
+                //         FlutterAlarmClock.createTimer(length: minutes);
+                //         showDialog(
+                //           context: context,
+                //           builder: (context) {
+                //             return const AlertDialog(
+                //               content: Center(
+                //                 child: Text(
+                //                   "Timer is set",
+                //                   style: TextStyle(
+                //                       fontSize: 20, fontWeight: FontWeight.bold),
+                //                 ),
+                //               ),
+                //             );
+                //           },
+                //         );
+                //       } else {
+                //         showErrorDialog(
+                //             context, 'Please enter a valid number of minutes.');
+                //       }
+                //     },
+                //   ),
+                //   const SizedBox(height: 15),
+                //   _buildActionButton(
+                //     'Show Timers',
+                //     Icons.timer_outlined,
+                //     () => FlutterAlarmClock.showTimers(),
+                //   ),
